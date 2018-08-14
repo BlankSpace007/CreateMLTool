@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1D5C24E2122B9B600454485 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D5C24D2122B9B600454485 /* AppDelegate.swift */; };
+		A1D5C2502122B9B700454485 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1D5C24F2122B9B700454485 /* Assets.xcassets */; };
+		A1D5C2532122B9B700454485 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1D5C2512122B9B700454485 /* MainMenu.xib */; };
+		A1D5C25C2122BA7000454485 /* MainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D5C25B2122BA7000454485 /* MainWindow.swift */; };
+		A1D5C25F2122BAA700454485 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D5C25D2122BAA700454485 /* MainWindowController.swift */; };
+		A1D5C2602122BAA700454485 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1D5C25E2122BAA700454485 /* MainWindowController.xib */; };
+		BF1C07581B405379A8D79FA4 /* Pods_CreateMLTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 602913B415E3553A5403C5BD /* Pods_CreateMLTool.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F49464C82A591E4B2F117E6 /* Pods-CreateMLTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreateMLTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CreateMLTool/Pods-CreateMLTool.debug.xcconfig"; sourceTree = "<group>"; };
+		602913B415E3553A5403C5BD /* Pods_CreateMLTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CreateMLTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D585FA26960089BEB0A8736 /* Pods-CreateMLTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreateMLTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-CreateMLTool/Pods-CreateMLTool.release.xcconfig"; sourceTree = "<group>"; };
+		A1D5C24A2122B9B600454485 /* CreateMLTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreateMLTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1D5C24D2122B9B600454485 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1D5C24F2122B9B700454485 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1D5C2522122B9B700454485 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A1D5C2542122B9B700454485 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1D5C2552122B9B700454485 /* CreateMLTool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CreateMLTool.entitlements; sourceTree = "<group>"; };
+		A1D5C25B2122BA7000454485 /* MainWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindow.swift; sourceTree = "<group>"; };
+		A1D5C25D2122BAA700454485 /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		A1D5C25E2122BAA700454485 /* MainWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1D5C2472122B9B600454485 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1C07581B405379A8D79FA4 /* Pods_CreateMLTool.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7936DFFD95282F1C64739603 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				602913B415E3553A5403C5BD /* Pods_CreateMLTool.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1D5C2412122B9B600454485 = {
+			isa = PBXGroup;
+			children = (
+				A1D5C24C2122B9B600454485 /* CreateMLTool */,
+				A1D5C24B2122B9B600454485 /* Products */,
+				A2C4E8ACDBCF4275D62DA8B2 /* Pods */,
+				7936DFFD95282F1C64739603 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A1D5C24B2122B9B600454485 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1D5C24A2122B9B600454485 /* CreateMLTool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1D5C24C2122B9B600454485 /* CreateMLTool */ = {
+			isa = PBXGroup;
+			children = (
+				A1D5C24D2122B9B600454485 /* AppDelegate.swift */,
+				A1D5C25B2122BA7000454485 /* MainWindow.swift */,
+				A1D5C25D2122BAA700454485 /* MainWindowController.swift */,
+				A1D5C25E2122BAA700454485 /* MainWindowController.xib */,
+				A1D5C24F2122B9B700454485 /* Assets.xcassets */,
+				A1D5C2512122B9B700454485 /* MainMenu.xib */,
+				A1D5C2542122B9B700454485 /* Info.plist */,
+				A1D5C2552122B9B700454485 /* CreateMLTool.entitlements */,
+			);
+			path = CreateMLTool;
+			sourceTree = "<group>";
+		};
+		A2C4E8ACDBCF4275D62DA8B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F49464C82A591E4B2F117E6 /* Pods-CreateMLTool.debug.xcconfig */,
+				8D585FA26960089BEB0A8736 /* Pods-CreateMLTool.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1D5C2492122B9B600454485 /* CreateMLTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1D5C2582122B9B700454485 /* Build configuration list for PBXNativeTarget "CreateMLTool" */;
+			buildPhases = (
+				4A54F2502D046AE3D2D238A4 /* [CP] Check Pods Manifest.lock */,
+				A1D5C2462122B9B600454485 /* Sources */,
+				A1D5C2472122B9B600454485 /* Frameworks */,
+				A1D5C2482122B9B600454485 /* Resources */,
+				654F5E8348DF7221AED55338 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CreateMLTool;
+			productName = CreateMLTool;
+			productReference = A1D5C24A2122B9B600454485 /* CreateMLTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1D5C2422122B9B600454485 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = lxp;
+				TargetAttributes = {
+					A1D5C2492122B9B600454485 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A1D5C2452122B9B600454485 /* Build configuration list for PBXProject "CreateMLTool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1D5C2412122B9B600454485;
+			productRefGroup = A1D5C24B2122B9B600454485 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1D5C2492122B9B600454485 /* CreateMLTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1D5C2482122B9B600454485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D5C2502122B9B700454485 /* Assets.xcassets in Resources */,
+				A1D5C2602122BAA700454485 /* MainWindowController.xib in Resources */,
+				A1D5C2532122B9B700454485 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A54F2502D046AE3D2D238A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CreateMLTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		654F5E8348DF7221AED55338 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CreateMLTool/Pods-CreateMLTool-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CreateMLTool/Pods-CreateMLTool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1D5C2462122B9B600454485 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D5C25C2122BA7000454485 /* MainWindow.swift in Sources */,
+				A1D5C24E2122B9B600454485 /* AppDelegate.swift in Sources */,
+				A1D5C25F2122BAA700454485 /* MainWindowController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A1D5C2512122B9B700454485 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1D5C2522122B9B700454485 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1D5C2562122B9B700454485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1D5C2572122B9B700454485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A1D5C2592122B9B700454485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F49464C82A591E4B2F117E6 /* Pods-CreateMLTool.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CreateMLTool/CreateMLTool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T99PL25NG6;
+				INFOPLIST_FILE = CreateMLTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.drore.CreateMLTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		A1D5C25A2122B9B700454485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D585FA26960089BEB0A8736 /* Pods-CreateMLTool.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CreateMLTool/CreateMLTool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = T99PL25NG6;
+				INFOPLIST_FILE = CreateMLTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.drore.CreateMLTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1D5C2452122B9B600454485 /* Build configuration list for PBXProject "CreateMLTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1D5C2562122B9B700454485 /* Debug */,
+				A1D5C2572122B9B700454485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1D5C2582122B9B700454485 /* Build configuration list for PBXNativeTarget "CreateMLTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1D5C2592122B9B700454485 /* Debug */,
+				A1D5C25A2122B9B700454485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1D5C2422122B9B600454485 /* Project object */;
+}
