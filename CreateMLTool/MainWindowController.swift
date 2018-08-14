@@ -10,10 +10,23 @@ import Cocoa
 
 class MainWindowController: NSWindowController {
     
+    private lazy var imageClassifierButton:NSButton = {
+        var button = NSButton.init(title: "Image Classifier", target: self, action: #selector(imageAction))
+        button.frame = CGRect.init(x: 100, y: 50, width: 50, height: 50)
+        return button
+    }()
+    
     override func windowDidLoad() {
         super.windowDidLoad()
         self.contentViewController?.view.wantsLayer = true
-        self.contentViewController?.view.layer?.backgroundColor = NSColor.white.cgColor
+
+        contentViewController?.view.addSubview(imageClassifierButton)
+        
+    
     }
     
+    @objc func imageAction(){
+        print(11111)
+    }
+
 }
