@@ -13,7 +13,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
 
-        let windowC :MainWindowController = MainWindowController.init(windowNibName: NSNib.Name(rawValue: "MainWindowController"))
+        let windowC :MainWindowController = MainWindowController.init(windowNibName: "MainWindowController")
         windowC.window?.center()
         windowC.window?.orderFront(nil)
         
